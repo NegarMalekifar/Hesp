@@ -1,0 +1,94 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+   <title>UCI Hearing and Speech Research Laboratory: Gap Detection Experiment</title>
+   <bgsound id="snd1">
+</head>
+<body bgcolor="#FFFFFF">
+
+<center><img SRC="image/logo.gif">
+
+<br>&nbsp;
+<center><table BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="69%" >
+<tr VALIGN=TOP>
+<td HEIGHT="584"><font face="Arial, Helvetica, sans-serif"><font size=-1>Gap
+detection is a hearing test that measures your ability to resolve differences
+in time. In this test, you will hear three noise bursts, with one of them
+having a silent interval ("gap") in it. Your job is to select the one with
+the gap by pointing and clicking your mouse button to the corresponding light.
+  You should guess even if you are not sure and keep going until the program
+  stops. Depending on your response, the gap may become longer or shorter
+or totally undetectable. The computer program will automatically track
+your response and calculate the smallest gap that you can detect.&nbsp;</font></font>
+<p><font face="Arial, Helvetica, sans-serif"><font size=-1>A normally-hearing
+person may detect 1-2 msec gap if the stimuli are presented at a comfortably
+loud level. On the other hand, a person with auditory neuropathy or other
+language/learning disorders may have a significantly greater gap detection
+threshold (see <a href="../Zeng25.pdf">our research article</a> in .pdf
+format).&nbsp;</font></font>
+<p><font face="Arial, Helvetica, sans-serif"><font size=-1>Let's first
+play the calibration stimulus to set the overall volume of your speaker
+or headphone at the maximally comfortable level. The test may last 5 to
+10 minutes. Are you ready for the test?&nbsp;</font></font>
+<script language=javascript>
+<!--
+
+function button1_onclick() {
+		snd1.src = "sound/nogap.wav"	
+}
+
+function start_onclick(){
+	temp = selectWho.options[selectWho.selectedIndex].value
+	if(temp == "applet"){
+		window.open('ie_gapexe_new.html','','')
+	}
+	else{
+		window.open('ie_gapexe.html','','')
+	}
+}
+
+//-->
+</script>
+
+<center>
+<p>Please select your test type here:
+<select id=selectWho name="slec">
+<option value = "applet" selected>Applet</option>
+<option value = "bgs">Background Sound</option>
+</select>
+<p>
+
+<br><form name=a id=a>
+<center><input type="button" value="Calibrate Sound" id=button1 name=button1 language=javascript onClick="return button1_onclick()"></center>
+</form>
+<center>
+<p><IMG id=pic1 language=javascript onclick=start_onclick() src="image/start.jpg">
+</center>
+<br><br><br>
+<hr noshade>
+
+<p><b><i><font face="Arial, Helvetica, sans-serif"><font color="#000000"><font size=-1>Contact
+Information:</font></font></font></i></b>
+<br><i><font size="-1" color="#000000" face="Arial, Helvetica, sans-serif">Fan-Gang
+Zeng, Ph.D.</font></i><br>
+<i><font face="Arial, Helvetica, sans-serif" color="#000000" size="-1">364 Med
+Surge II</font></i><br>
+<i><font face="Arial, Helvetica, sans-serif" color="#000000" size="-1">Irvine,
+CA 92697</font></i><br>
+<i><font size="-1" color="#000000" face="Arial, Helvetica, sans-serif">Phone:
+(949) 824-1539</font></i><br>
+<i><font size="-1" color="#000000" face="Arial, Helvetica, sans-serif">Fax:
+(949) 824-5097</font></i><br>
+<i><font size="-1" color="#000000" face="Arial, Helvetica, sans-serif">E-mail: <a href="mailto:fzeng@uci.edu">fzeng@uci.edu</a></font></i>
+
+
+
+</td>
+</tr>
+</table></center>
+
+<br>&nbsp;
+</body>
+</html>
